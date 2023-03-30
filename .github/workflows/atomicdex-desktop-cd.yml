@@ -1,9 +1,7 @@
 name: AtomicDex-Desktop CD releases
 
 on:
-  push:
-    branches:
-    - temporary_disabled
+  workflow_dispatch
 
 env:
   DEX_PROJECT_NAME: "atomicdex-desktop"
