@@ -1,13 +1,7 @@
 name: AtomicDex-Desktop CI
 
 on:
-  pull_request:
-    types: [ opened, synchronize, reopened ]
-  push:
-    branches:
-      - master dev
-  schedule:
-    - cron: '0 0 * * 1'
+  workflow_dispatch
 
 env:
   DEX_API: "mm2"
